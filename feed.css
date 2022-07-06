@@ -1,0 +1,12 @@
+.main-feed {
+    flex-grow: 1;
+    margin: 0 30px;
+}
+
+.main-feed * {
+    border: 1px solid var(--clr-light-gray)
+}
+
+.main-feed .home-title {
+    padding: 20px;
+}

@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="right-sidebar.css" />
     <link rel="stylesheet" type="text/css" href="left-sidebar.css" />
     <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="feed.css" />
   </head>
   <body>
     <div class="container">
@@ -73,11 +74,23 @@
           <i class="fa-solid fa-ellipsis"></i>
         </article>
       </aside>
-      <main class="main-feed"></main>
+      <main class="main-feed">
+        <h2 class="home-title">Home</h2>
+        <div class="compose-tweet">
+          <img src="" alt="" class="profile-photo" />
+          <form action="" class="tweet-contents">
+            <input type="text" class="tweet-text" /><button type="submit" class="tweet-btn">
+              Tweet
+            </button>
+          </form>
+        </div>
+        <div class="tweet"></div>
+        <div class="tweet"></div>
+      </main>
       <aside class="sidebar-right">
         <from class="search">
           <input type="text" placeholder="Search Twitter" class="search-bar" />
-          <button class="search-btn">
+          <button type="submit" class="search-btn">
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
         </from>
@@ -103,11 +116,13 @@
               <p class="trend-info">Trending in Bulgaria</p>
               <h3 class="trend-hashtag">SQUID</h3>
               <p class="trend-info">2,005 Tweets</p>
-            </article><article class="trend-card">
+            </article>
+            <article class="trend-card">
               <p class="trend-info">Trending in Bulgaria</p>
               <h3 class="trend-hashtag">SQUID</h3>
               <p class="trend-info">2,005 Tweets</p>
-            </article><article class="trend-card">
+            </article>
+            <article class="trend-card">
               <p class="trend-info">Trending in Bulgaria</p>
               <h3 class="trend-hashtag">SQUID</h3>
               <p class="trend-info">2,005 Tweets</p>
@@ -129,22 +144,14 @@
           <div class="follow-suggestions">
             <h2 class="follow-title"></h2>
             <article class="profile-card">
-              <img
-                src="images/images.jfif"
-                alt=""
-                class="profile-photo"
-              />
+              <img src="images/images.jfif" alt="" class="profile-photo" />
               <div class="profile-info">
                 <h3 class="profile-name">Someone Important</h3>
                 <p class="profile-handle">@mnidchenko</p>
               </div>
             </article>
             <article class="profile-card">
-              <img
-                src="images/images.jfif"
-                alt=""
-                class="profile-photo"
-              />
+              <img src="images/images.jfif" alt="" class="profile-photo" />
               <div class="profile-info">
                 <h3 class="profile-name">Someone Important</h3>
                 <p class="profile-handle">@exampleusername</p>
