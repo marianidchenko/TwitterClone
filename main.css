@@ -15,4 +15,6 @@ body {
 .container {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     max-width: 1265px;
+    display: flex;
+    justify-content: center;
 }

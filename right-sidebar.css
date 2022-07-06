@@ -1,3 +1,29 @@
 @import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
-@import './main.css';
+@import "./main.css";
 
+.sidebar-right .search {
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+.sidebar-right .search-bar {
+    border-radius: 0 52px 52px 0;
+    background-color: var(--clr-hover-gray);
+    border: none;
+    padding: 16px 100px 16px 0px;
+    font-size: 17px;
+
+}
+
+.sidebar-right .search-btn {
+    border-radius: 52px 0 0 52px;
+    background-color: var(--clr-hover-gray);
+    border: none;
+    padding: 16px 30px;
+}
+
+
+.sidebar-right .search-btn .fa-magnifying-glass {
+    font-size: 17px;
+    color: var(--clr-font-gray);
+}

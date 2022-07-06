@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Twitter Clone</title>
+        <link rel="stylesheet" type="text/css" href="right-sidebar.css" />
         <link rel="stylesheet" type="text/css" href="left-sidebar.css" />
         <link rel="stylesheet" type="text/css" href="main.css" />
     </head>
@@ -74,7 +75,12 @@
                 </article>
             </aside>
             <main class="main-feed"></main>
-            <aside class="sidebar-right"></aside>
+            <aside class="sidebar-right">
+                <from class="search">
+                    <input type="text" placeholder="Search Twitter" class="search-bar"/>
+                    <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </from>
+            </aside>
         </div>
     </body>
 </html>
