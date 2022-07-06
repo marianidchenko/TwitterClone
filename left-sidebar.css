@@ -89,7 +89,9 @@
 }
 
 .sidebar-left .profile-card .profile-photo {
+    object-fit: cover;
     height: 42px;
+    width: 42px;
     margin-right: 10px;
     border-radius: 50%;
 }
