@@ -14,7 +14,7 @@
     border-radius: 0 52px 52px 0;
     background-color: var(--clr-light-gray);
     border: none;
-    padding: 16px 100px 16px 0px;
+    padding: 12px 100px 12px 0px;
     font-size: 17px;
     margin-top: 10px;
 
@@ -43,8 +43,8 @@ Trends */
 
 .sidebar-section {
     background-color: var(--clr-light-gray);
-    margin-top: 20px;
-    border-radius: 16px;
+    margin-top: 15px;
+    border-radius: 18px;
 }
 
 .trends .trends-title {
