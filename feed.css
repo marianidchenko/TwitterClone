@@ -3,10 +3,18 @@
     margin: 0 30px;
 }
 
-.main-feed .home-title {
+.main-feed .home-header {
+    
+    border: 1px solid var(--clr-light-gray);
+    background: rgba(255, 255, 255, 0.99);
+    opacity: 0.90;
+    position: sticky;
+    top: 0;
+}
+
+.home-title {
     font-size: 20px;
     padding: 20px;
-    border: 1px solid var(--clr-light-gray);
 }
 
 /* Compose Tweet */
