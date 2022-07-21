@@ -1,219 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Twitter Clone</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
-    <link rel="stylesheet" type="text/css" href="reset.css" />
-    <link rel="stylesheet" type="text/css" href="right-sidebar.css" />
-    <link rel="stylesheet" type="text/css" href="left-sidebar.css" />
-    <link rel="stylesheet" type="text/css" href="../main.css" />
-    <link rel="stylesheet" type="text/css" href="feed.css" />
-    <link rel="stylesheet" type="text/css" href="tweet.css" />
-  </head>
-  <body>
-    <div class="container">
-      <aside class="sidebar-left">
-        <ul class="menu">
-          <li class="menu-logo">
-            <i class="fa-brands fa-twitter"></i>
-          </li>
-          <li class="menu-items">
-            <a href="" class="menu-link"
-              ><i class="fa-solid fa-house-chimney-window"></i>Home</a
-            >
-          </li>
-          <li class="menu-items">
-            <a href="" class="menu-link"
-              ><i class="fa-solid fa-hashtag"></i>Explore</a
-            >
-          </li>
-          <li class="menu-items">
-            <a href="" class="menu-link"
-              ><i class="fa-solid fa-bell"></i>Notifications</a
-            >
-          </li>
-          <li class="menu-items">
-            <a href="" class="menu-link"
-              ><i class="fa-solid fa-envelope"></i>Messages</a
-            >
-          </li>
-          <li class="menu-items">
-            <a href="" class="menu-link"
-              ><i class="fa-solid fa-bookmark"></i>Bookmarks</a
-            >
-          </li>
-          <li class="menu-items">
-            <a href="" class="menu-link"
-              ><i class="fa-solid fa-file-lines"></i>Lists</a
-            >
-          </li>
-          <li class="menu-items">
-            <a href="" class="menu-link"
-              ><i class="fa-solid fa-user"></i>Profile</a
-            >
-          </li>
-          <li class="menu-items">
-            <a href="" class="menu-link"
-              ><i class="fa-solid fa-circle-chevron-down"></i>More</a
-            >
-          </li>
-        </ul>
 
-        <button class="sidebar-tweet">Tweet</button>
-        <article class="profile-card">
-          <img
-            src="../images/374666c1-77d1-4471-9a7f-6e2c12247656.jpg"
-            alt=""
-            class="profile-photo"
-          />
-          <div class="profile-info">
-            <h3 class="profile-name">Maria Nidchenko</h3>
-            <p class="profile-handle">@mnidchenko</p>
-          </div>
-          <i class="fa-solid fa-ellipsis"></i>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Twitter Clone</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+  <link rel="stylesheet" type="text/css" href="reset.css" />
+  <link rel="stylesheet" type="text/css" href="right-sidebar.css" />
+  <link rel="stylesheet" type="text/css" href="left-sidebar.css" />
+  <link rel="stylesheet" type="text/css" href="../main.css" />
+  <link rel="stylesheet" type="text/css" href="feed.css" />
+  <link rel="stylesheet" type="text/css" href="tweet.css" />
+</head>
+
+<body>
+  <div class="container">
+    <aside class="sidebar-left">
+      <ul class="menu">
+        <li class="menu-logo">
+          <i class="fa-brands fa-twitter"></i>
+        </li>
+        <li class="menu-items">
+          <a href="" class="menu-link"><i class="fa-solid fa-house-chimney-window"></i>Home</a>
+        </li>
+        <li class="menu-items">
+          <a href="" class="menu-link"><i class="fa-solid fa-hashtag"></i>Explore</a>
+        </li>
+        <li class="menu-items">
+          <a href="" class="menu-link"><i class="fa-solid fa-bell"></i>Notifications</a>
+        </li>
+        <li class="menu-items">
+          <a href="" class="menu-link"><i class="fa-solid fa-envelope"></i>Messages</a>
+        </li>
+        <li class="menu-items">
+          <a href="" class="menu-link"><i class="fa-solid fa-bookmark"></i>Bookmarks</a>
+        </li>
+        <li class="menu-items">
+          <a href="" class="menu-link"><i class="fa-solid fa-file-lines"></i>Lists</a>
+        </li>
+        <li class="menu-items">
+          <a href="" class="menu-link"><i class="fa-solid fa-user"></i>Profile</a>
+        </li>
+        <li class="menu-items">
+          <a href="" class="menu-link"><i class="fa-solid fa-circle-chevron-down"></i>More</a>
+        </li>
+      </ul>
+
+      <button class="sidebar-tweet">Tweet</button>
+      <article class="profile-card">
+        <img src="../images/374666c1-77d1-4471-9a7f-6e2c12247656.jpg" alt="" class="profile-photo" />
+        <div class="profile-info">
+          <h3 class="profile-name">Maria Nidchenko</h3>
+          <p class="profile-handle">@mnidchenko</p>
+        </div>
+        <i class="fa-solid fa-ellipsis"></i>
+        <div class="profile-card-menu">
+          <article class="profile-section">
+            <img src="../images/374666c1-77d1-4471-9a7f-6e2c12247656.jpg" alt="" class="profile-photo" />
+            <div class="profile-info">
+              <h3 class="profile-name">Maria Nidchenko</h3>
+              <p class="profile-handle">@mnidchenko</p>
+            </div>
+          </article>
+          <a href="" class="logout-btn">Log out of @mnidchenko</a>
+        </div>
+      </article>
+
+    </aside>
+    <main class="main-feed">
+      <header class="home-header">
+        <h2 class="home-title">Home</h2>
+      </header>
+
+      <div class="compose-tweet">
+        <img src="../images/374666c1-77d1-4471-9a7f-6e2c12247656.jpg" alt="" class="profile-photo" />
+        <form action="" class="tweet-contents">
+          <input type="text" placeholder="What's happening?" class="tweet-text" />
+          <button type="submit" class="tweet-btn">Tweet</button>
+        </form>
+      </div>
+      <div class="tweet">
+        <img src="../images/images.jfif" alt="" class="tweet-profile-photo">
+        <article class="tweet-contents">
+          <h3 class="tweet-name">Someone</h3>
+          <p class="tweet-username">@someone123</p>
+          <p class="tweet-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, aspernatur? Corrupti
+            adipisci ipsa iure, ratione cum dicta dolorum rem, ipsum quis maiores ex.</p>
         </article>
-      </aside>
-      <main class="main-feed">
-        <header class="home-header">
-          <h2 class="home-title">Home</h2>
-        </header>
+        <div class="interaction-menu">
+          <a href="" class="interaction-btn"><i class="fa-solid fa-message"></i></a>
+          <a href="" class="interaction-btn"><i class="fa-solid fa-retweet"></i></a>
+          <a href="" class="interaction-btn"><i class="fa-solid fa-heart"></i></a>
+          <a href="" class="interaction-btn"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+        </div>
+      </div>
+      <div class="tweet">
+        <img src="../images/374666c1-77d1-4471-9a7f-6e2c12247656.jpg" alt="" class="tweet-profile-photo">
+        <article class="tweet-contents">
+          <h3 class="tweet-name">Maria Nidchenko</h3>
+          <p class="tweet-username">@marianidchenko</p>
+          <p class="tweet-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, aspernatur? Corrupti
+            adipisci ipsa iure, ratione cum dicta dolorum rem, ipsum quis maiores ex.</p>
+          <img src="../images/forrest-27720334.jpg" alt="" class="tweet-media">
+        </article>
+        <div class="interaction-menu">
+          <a href="" class="interaction-btn"><i class="fa-solid fa-message"></i></a>
+          <a href="" class="interaction-btn"><i class="fa-solid fa-retweet"></i></a>
+          <a href="" class="interaction-btn"><i class="fa-solid fa-heart"></i></a>
+          <a href="" class="interaction-btn"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+        </div>
+      </div>
+      <div class="tweet">
+        <img src="../images/images.jfif" alt="" class="tweet-profile-photo">
+        <article class="tweet-contents">
+          <h3 class="tweet-name">Someone</h3>
+          <p class="tweet-username">@someone123</p>
+          <p class="tweet-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, aspernatur? Corrupti
+            adipisci ipsa iure, ratione cum dicta dolorum rem, ipsum quis maiores ex.</p>
+        </article>
+        <div class="interaction-menu">
+          <a href="" class="interaction-btn"><i class="fa-solid fa-message"></i></a>
+          <a href="" class="interaction-btn"><i class="fa-solid fa-retweet"></i></a>
+          <a href="" class="interaction-btn"><i class="fa-solid fa-heart"></i></a>
+          <a href="" class="interaction-btn"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+        </div>
+      </div>
+    </main>
+    <aside class="sidebar-right">
+      <from class="search">
+        <input type="text" placeholder="Search Twitter" class="search-bar" />
+        <button type="submit" class="search-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </from>
+      <section class="sidebar-section">
+        <div class="trends">
+          <h2 class="trends-title">Trends for you</h2>
+          <article class="trend-card">
+            <p class="trend-info">Trending in Bulgaria</p>
+            <h3 class="trend-hashtag">#SQUID</h3>
+            <p class="trend-info">2,005 Tweets</p>
+          </article>
+          <article class="trend-card">
+            <p class="trend-info">Trending in Bulgaria</p>
+            <h3 class="trend-hashtag">SQUID</h3>
+            <p class="trend-info">2,005 Tweets</p>
+          </article>
+          <article class="trend-card">
+            <p class="trend-info">Trending in Bulgaria</p>
+            <h3 class="trend-hashtag">SQUID</h3>
+            <p class="trend-info">2,005 Tweets</p>
+          </article>
+          <article class="trend-card">
+            <p class="trend-info">Trending in Bulgaria</p>
+            <h3 class="trend-hashtag">SQUID</h3>
+            <p class="trend-info">2,005 Tweets</p>
+          </article>
+          <article class="trend-card">
+            <p class="trend-info">Trending in Bulgaria</p>
+            <h3 class="trend-hashtag">SQUID</h3>
+            <p class="trend-info">2,005 Tweets</p>
+          </article>
+          <article class="trend-card">
+            <p class="trend-info">Trending in Bulgaria</p>
+            <h3 class="trend-hashtag">SQUID</h3>
+            <p class="trend-info">2,005 Tweets</p>
+          </article>
+          <article class="trend-card">
+            <p class="trend-info">Trending in Bulgaria</p>
+            <h3 class="trend-hashtag">SQUID</h3>
+            <p class="trend-info">2,005 Tweets</p>
+          </article>
+          <article class="trend-card">
+            <p class="trend-info">Trending in Bulgaria</p>
+            <h3 class="trend-hashtag">SQUID</h3>
+            <p class="trend-info">2,005 Tweets</p>
+          </article>
+        </div>
+        <button class="show-more-btn">Show more</button>
+      </section>
+      <section class="sidebar-section">
+        <div class="follow-suggestions">
+          <h2 class="follow-title"></h2>
+          <article class="profile-card">
+            <img src="../images/images.jfif" alt="" class="profile-photo" />
+            <div class="profile-info">
+              <h3 class="profile-name">Someone Important</h3>
+              <p class="profile-handle">@mnidchenko</p>
+            </div>
+          </article>
+          <article class="profile-card">
+            <img src="../images/images.jfif" alt="" class="profile-photo" />
+            <div class="profile-info">
+              <h3 class="profile-name">Someone Important</h3>
+              <p class="profile-handle">@exampleusername</p>
+            </div>
+          </article>
+        </div>
+        <button class="show-more-btn">Show more</button>
+      </section>
+    </aside>
+  </div>
+</body>
 
-        <div class="compose-tweet">
-          <img
-            src="../images/374666c1-77d1-4471-9a7f-6e2c12247656.jpg"
-            alt=""
-            class="profile-photo"
-          />
-          <form action="" class="tweet-contents">
-            <input
-              type="text"
-              placeholder="What's happening?"
-              class="tweet-text"
-            />
-            <button type="submit" class="tweet-btn">Tweet</button>
-          </form>
-        </div>
-        <div class="tweet">
-          <img src="../images/images.jfif" alt="" class="tweet-profile-photo">
-          <article class="tweet-contents">
-            <h3 class="tweet-name">Someone</h3>
-            <p class="tweet-username">@someone123</p>
-            <p class="tweet-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, aspernatur? Corrupti adipisci ipsa iure, ratione cum dicta dolorum rem, ipsum quis maiores ex.</p>
-          </article>
-          <div class="interaction-menu">
-            <a href="" class="interaction-btn"><i class="fa-solid fa-message"></i></a>
-            <a href="" class="interaction-btn"><i class="fa-solid fa-retweet"></i></a>
-            <a href="" class="interaction-btn"><i class="fa-solid fa-heart"></i></a>
-            <a href="" class="interaction-btn"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
-          </div>
-        </div>
-        <div class="tweet">
-          <img src="../images/374666c1-77d1-4471-9a7f-6e2c12247656.jpg" alt="" class="tweet-profile-photo">
-          <article class="tweet-contents">
-            <h3 class="tweet-name">Maria Nidchenko</h3>
-            <p class="tweet-username">@marianidchenko</p>
-            <p class="tweet-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, aspernatur? Corrupti adipisci ipsa iure, ratione cum dicta dolorum rem, ipsum quis maiores ex.</p>
-            <img src="../images/forrest-27720334.jpg" alt="" class="tweet-media">
-          </article>
-          <div class="interaction-menu">
-            <a href="" class="interaction-btn"><i class="fa-solid fa-message"></i></a>
-            <a href="" class="interaction-btn"><i class="fa-solid fa-retweet"></i></a>
-            <a href="" class="interaction-btn"><i class="fa-solid fa-heart"></i></a>
-            <a href="" class="interaction-btn"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
-          </div>
-        </div>
-        <div class="tweet">
-          <img src="../images/images.jfif" alt="" class="tweet-profile-photo">
-          <article class="tweet-contents">
-            <h3 class="tweet-name">Someone</h3>
-            <p class="tweet-username">@someone123</p>
-            <p class="tweet-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, aspernatur? Corrupti adipisci ipsa iure, ratione cum dicta dolorum rem, ipsum quis maiores ex.</p>
-          </article>
-          <div class="interaction-menu">
-            <a href="" class="interaction-btn"><i class="fa-solid fa-message"></i></a>
-            <a href="" class="interaction-btn"><i class="fa-solid fa-retweet"></i></a>
-            <a href="" class="interaction-btn"><i class="fa-solid fa-heart"></i></a>
-            <a href="" class="interaction-btn"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
-          </div>
-        </div>
-      </main>
-      <aside class="sidebar-right">
-        <from class="search">
-          <input type="text" placeholder="Search Twitter" class="search-bar" />
-          <button type="submit" class="search-btn">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </button>
-        </from>
-        <section class="sidebar-section">
-          <div class="trends">
-            <h2 class="trends-title">Trends for you</h2>
-            <article class="trend-card">
-              <p class="trend-info">Trending in Bulgaria</p>
-              <h3 class="trend-hashtag">#SQUID</h3>
-              <p class="trend-info">2,005 Tweets</p>
-            </article>
-            <article class="trend-card">
-              <p class="trend-info">Trending in Bulgaria</p>
-              <h3 class="trend-hashtag">SQUID</h3>
-              <p class="trend-info">2,005 Tweets</p>
-            </article>
-            <article class="trend-card">
-              <p class="trend-info">Trending in Bulgaria</p>
-              <h3 class="trend-hashtag">SQUID</h3>
-              <p class="trend-info">2,005 Tweets</p>
-            </article>
-            <article class="trend-card">
-              <p class="trend-info">Trending in Bulgaria</p>
-              <h3 class="trend-hashtag">SQUID</h3>
-              <p class="trend-info">2,005 Tweets</p>
-            </article>
-            <article class="trend-card">
-              <p class="trend-info">Trending in Bulgaria</p>
-              <h3 class="trend-hashtag">SQUID</h3>
-              <p class="trend-info">2,005 Tweets</p>
-            </article>
-            <article class="trend-card">
-              <p class="trend-info">Trending in Bulgaria</p>
-              <h3 class="trend-hashtag">SQUID</h3>
-              <p class="trend-info">2,005 Tweets</p>
-            </article>
-            <article class="trend-card">
-              <p class="trend-info">Trending in Bulgaria</p>
-              <h3 class="trend-hashtag">SQUID</h3>
-              <p class="trend-info">2,005 Tweets</p>
-            </article>
-            <article class="trend-card">
-              <p class="trend-info">Trending in Bulgaria</p>
-              <h3 class="trend-hashtag">SQUID</h3>
-              <p class="trend-info">2,005 Tweets</p>
-            </article>
-          </div>
-          <button class="show-more-btn">Show more</button>
-        </section>
-        <section class="sidebar-section">
-          <div class="follow-suggestions">
-            <h2 class="follow-title"></h2>
-            <article class="profile-card">
-              <img src="../images/images.jfif" alt="" class="profile-photo" />
-              <div class="profile-info">
-                <h3 class="profile-name">Someone Important</h3>
-                <p class="profile-handle">@mnidchenko</p>
-              </div>
-            </article>
-            <article class="profile-card">
-              <img src="../images/images.jfif" alt="" class="profile-photo" />
-              <div class="profile-info">
-                <h3 class="profile-name">Someone Important</h3>
-                <p class="profile-handle">@exampleusername</p>
-              </div>
-            </article>
-          </div>
-          <button class="show-more-btn">Show more</button>
-        </section>
-      </aside>
-    </div>
-  </body>
 </html>
